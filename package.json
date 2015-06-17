@@ -1,0 +1,25 @@
+{
+  "name": "jsdoc-jsx",
+  "version": "0.1.0",
+  "description": "A JSDoc3 plugin that transform JSX source files using the esprima parser.",
+  "main": "index.js",
+  "keywords": [
+    "jsdoc",
+    "jsx",
+    "plugin"
+  ],
+  "bugs": "https://github.com/ctumolosus/jsdoc-jsx/issues",
+  "author": "Christian Muñoz",
+  "license": "BSD-3-Clause",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctumolosus/jsdoc-jsx"
+  },
+  "dependencies": {
+    "jstransform": "^11.0.1",
+    "object-assign": "^3.0.0"
+  }
+}
