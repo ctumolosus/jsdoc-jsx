@@ -30,3 +30,17 @@ By default, the plugin only processes files that have a `.jsx` extension. You co
     }
 }
 ```
+
+### Passing options through esprima and transform
+
+You can define [options](https://github.com/facebook/jstransform#simpletransformcode-options) to be passed through esprima and transform by adding them to your JSDoc configuration file:
+
+```json
+{
+    "plugins": ["jsdoc-jsx"],
+    "jsx": {
+        "es6": true,
+        "es6module": true
+    }
+}
+```
